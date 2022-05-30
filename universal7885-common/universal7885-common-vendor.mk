@@ -16,8 +16,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7885-common/proprietary/vendor/bin/tzts_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/tzts_daemon \
     vendor/samsung/universal7885-common/proprietary/vendor/bin/wlbtd:$(TARGET_COPY_OUT_VENDOR)/bin/wlbtd \
     vendor/samsung/universal7885-common/proprietary/vendor/etc/audio_board_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_board_info.xml \
-    vendor/samsung/universal7885-common/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
-    vendor/samsung/universal7885-common/proprietary/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
     vendor/samsung/universal7885-common/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/samsung/universal7885-common/proprietary/vendor/etc/gnss/ca.pem:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/ca.pem \
     vendor/samsung/universal7885-common/proprietary/vendor/etc/gnss/gps.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.cfg \
@@ -81,9 +79,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7885-common/proprietary/vendor/lib/omx/libOMX.Exynos.HEVC.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.HEVC.Encoder.so \
     vendor/samsung/universal7885-common/proprietary/vendor/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
     vendor/samsung/universal7885-common/proprietary/vendor/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
-    vendor/samsung/universal7885-common/proprietary/vendor/lib/omx/libOMX.Exynos.VP8.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.VP8.Decoder.so \
-    vendor/samsung/universal7885-common/proprietary/vendor/lib/omx/libOMX.Exynos.VP8.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.VP8.Encoder.so \
-    vendor/samsung/universal7885-common/proprietary/vendor/lib/omx/libOMX.Exynos.VP9.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.VP9.Decoder.so \
     vendor/samsung/universal7885-common/proprietary/vendor/lib/omx/libOMX.Exynos.WMV.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.WMV.Decoder.so \
     vendor/samsung/universal7885-common/proprietary/vendor/lib/soundfx/libaudioeffectoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudioeffectoffload.so \
     vendor/samsung/universal7885-common/proprietary/vendor/lib/vndk/libtinyalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libtinyalsa.so \
@@ -126,9 +121,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7885-common/proprietary/vendor/lib64/omx/libOMX.Exynos.HEVC.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.HEVC.Encoder.so \
     vendor/samsung/universal7885-common/proprietary/vendor/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so \
     vendor/samsung/universal7885-common/proprietary/vendor/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so \
-    vendor/samsung/universal7885-common/proprietary/vendor/lib64/omx/libOMX.Exynos.VP8.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.VP8.Decoder.so \
-    vendor/samsung/universal7885-common/proprietary/vendor/lib64/omx/libOMX.Exynos.VP8.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.VP8.Encoder.so \
-    vendor/samsung/universal7885-common/proprietary/vendor/lib64/omx/libOMX.Exynos.VP9.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.VP9.Decoder.so \
     vendor/samsung/universal7885-common/proprietary/vendor/lib64/omx/libOMX.Exynos.WMV.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.WMV.Decoder.so \
     vendor/samsung/universal7885-common/proprietary/vendor/lib64/soundfx/libaudioeffectoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudioeffectoffload.so \
     vendor/samsung/universal7885-common/proprietary/vendor/lib64/vendor.samsung.hardware.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.gnss@2.0.so \
